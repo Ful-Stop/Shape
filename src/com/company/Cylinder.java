@@ -15,7 +15,7 @@ public class Cylinder {
     }
 
     public double sa(){
-        return ((2 * base.getArea()) * height) + (base.getCircumference() * height);
+        return ((2 * base.getArea())) + (base.getCircumference() * height);
     }
 
 }
